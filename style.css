@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #282c34;
+    color: white;
+}
+
+#clock {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px 30px; 
+    border-radius: 25px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: default;
+}
+
+#clock:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7); 
+}
+
+#clktag {
+    font-size: 5rem;
+    color: #f39c12; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    margin: 0;
+}
+
+#date {
+    font-size: 1.5rem;
+    color: #ecf0f1; 
+    margin-top: 10px; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
